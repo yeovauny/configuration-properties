@@ -1,3 +1,12 @@
-version: "1.0"
-non_boolean: "yes"
-other_string: "False"
+server:
+  port : 8081
+security:
+  basic:
+    enabled: false
+management:
+  security:
+     enabled: false
+     
+spring:
+  config:
+    name: authorization-server
