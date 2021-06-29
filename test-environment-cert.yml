@@ -1,5 +1,3 @@
-create_key: yes
-needs_agent: no
-knows_oop: True
-likes_emacs: TRUE
-uses_cvs: false
+spring:
+  profiles:
+    active: cert
